@@ -24,7 +24,6 @@ public class HW_1 {
         name("Oleg");
         visokosniyYear(2020);
 
-
     }
 
     public static float calc(float a, float b, float c, float d) {
@@ -32,10 +31,7 @@ public class HW_1 {
     }
     public static boolean summ(int a, int b)
     {
-        if (a+b>=10 && a+b<=20)
-            return true;
-        else
-            return false;
+        return a + b >= 10 && a + b <= 20;
     }
     public static void plusMinus(int a)
     {
@@ -46,10 +42,7 @@ public class HW_1 {
     }
     public static boolean plusMinus2(int a)
     {
-        if (a>=0)
-            return false;
-        else
-            return true;
+        return a < 0;
     }
     public static void name(String a)
     {
