@@ -35,6 +35,7 @@ public class Main {
         }
         System.out.printf("Собак - %d штук \n", d );
         System.out.printf("Кошек - %d штук \n", c );
+        System.out.printf("Всего животных - %d штук", animals.length);
 
 
     }
