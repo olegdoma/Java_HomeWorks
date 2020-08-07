@@ -11,6 +11,10 @@ public class Plate {
     public static int getFood() {
         return food;
     }
+    public void addFood(int volumeFood) {
+        food += volumeFood;
+    }
+
 
     public void decreaseFood(int amount) {
         food -= amount;
