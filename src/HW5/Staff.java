@@ -1,3 +1,6 @@
+package HW5;
+
+
 public class Staff {
     String name;
     String position;
